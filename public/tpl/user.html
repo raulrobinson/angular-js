@@ -1,0 +1,24 @@
+<div class="container mt-3">
+  <form class="row g-3 needs-validation" novalidate>
+    <h3>Registro de Usuarios</h3>
+    <div class="g-3">
+    <div class="col-md-6 mt-3">
+        <input type="text" class="form-control" ng-model="user.username" aria-describedby="inputGroupPrepend" placeholder="Escriba su Usuario" required>
+    </div>
+    <div class="col-md-6 mt-3">
+      <input type="text" class="form-control" ng-model="user.name" value="Nombre Completo" placeholder="Escriba su Nombre Completo" required>
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" ng-model="user.email" placeholder="Escriba su correo electronico e-mail" required>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="d-grid gap-2 col-6">
+        <button class="btn btn-outline-primary btn-lg" ng-click="save()" type="submit">Guardar</button>
+      </div>
+    </div>
+  </form>
+</div>
