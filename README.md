@@ -10,7 +10,7 @@ npm i
 node server.js
 
 Open Web Browser
-http://localhost:3000}
+http://localhost:3000
 
 Enjoy!
 ```
